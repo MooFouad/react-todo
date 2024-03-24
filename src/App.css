@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+.todo-container{
+  margin: 100px auto;
+  padding: 20px;
+  width: fit-content;
+  text-align: center;
+  background-color:rgb(213, 247, 247);
+  border-radius: 20px;
+}
+.todo-container:hover{
+  box-shadow: 2px 4px 3px rgb(168, 200, 206);
+}
+input{
+  padding: 4px 10px;
+  width: 300px;
+  border: 2px solid rgb(8, 203, 203);
+}
+.submit-btn{
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  padding: 5px 20px;
+  margin: 0 10px;
+}
+.form-container{
+  display: flex;
+}
+.clear-btn{
+  cursor: pointer;
+  color: red;
+  background: none;
+  border: none;
+}
+
+/* list.js */
+.single-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.edit-btn{
+  cursor: pointer;
+  color: rgb(58, 194, 58);
+  background: none;
+  border: none;
+}
+.delete-btn{
+  cursor: pointer;
+  color: rgb(197, 84, 84);
+  background: none;
+  border: none;
+}
+
+/* alert.js */
+.alert-sucess{
+  background-color: rgb(126, 204, 126);
+}
+.alert-danger{
+  background-color: rgb(201, 126, 126);
+}
